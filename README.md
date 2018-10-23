@@ -1,22 +1,24 @@
-# Angular MasterClass
+# Мастер Класс по Angular
 
-## Advanced content generation
+Все идеи и пожелания по программе пожалуйста пишите в [issues](https://github.com/javascript-ru/angularpro/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
+
+## Продвинутая генерация контента
 - ContentChild и ViewChild
 - ngTemplateOutlet
-- exportAs
+- экспорт контроллера директивы с помощью exportAs
 - Наследование компонентов
 - Структурные директивы
 - Динамические компоненты
-    - ngCopomentOutlet
-- Impure pipe
+    - ngCopomentOutlet нам в помощь
+- Impure pipes
 - Angular Elements
 
-## Injection и Injectors
+## Dependency Injection
 - Рецепты создания провайдеров
-- InjectionToken
+- Использование InjectionToken
 - Паттерны под капотом
 - viewProviders
-- ReflectiveInjector vs StaticInjector
+- ReflectiveInjector и StaticInjector
 
 ## Change Detection
 - Механизм Change Detection
