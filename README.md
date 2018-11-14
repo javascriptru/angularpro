@@ -22,6 +22,7 @@
 
 ## Change Detection
 - Механизм Change Detection
+  - ExpressionChangedAfterItHasBeenCheckedError
 - Понимание Zonejs
     - runOutsideAngular
     - выключаем ngZone
@@ -30,6 +31,7 @@
 - detach/reattach
 
 ## Реактивный подход
+- реактивный подход или нет?
 - новое в RxJs6 и миграция
 - беглый обзор операторов
 - различные виды Subject
@@ -57,6 +59,12 @@
     - сравниваем Ivy и Angular Renderer2
 - SSR на основе angular-cli и express
     - Кешируем http запросы с помощью TransferState
+
+## Сборка и оптимизация
+- Оптимизация размера бандлов
+- Создание Angular библиотек
+- Модульная организация приложения
+- Больше одного приложения одновременно
 
 ## Безопасность
 - canActivate Guard
