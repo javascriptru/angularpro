@@ -22,6 +22,7 @@
 
 ## Change Detection
 - Механизм Change Detection
+  - ExpressionChangedAfterItHasBeenCheckedError
 - Понимание Zonejs
     - runOutsideAngular
     - выключаем ngZone
