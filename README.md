@@ -2,63 +2,62 @@
 
 Все идеи и пожелания по программе пожалуйста пишите в [issues](https://github.com/javascript-ru/angularpro/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
 
-## Продвинутая генерация контента
+## Сложные страницы: продвинутая генерация контента
 - ContentChild и ViewChild
 - ngTemplateOutlet
-- экспорт контроллера директивы с помощью exportAs
 - Наследование компонентов
 - Структурные директивы
-- Динамические компоненты
-    - ngCopomentOutlet нам в помощь
+- Динамические компоненты, ngComponentOutlet
 - Impure pipes
 - Angular Elements
 
-## Dependency Injection
+## Продвинутое Dependency Injection
 - Рецепты создания провайдеров
 - Использование InjectionToken
 - Паттерны под капотом
 - viewProviders
 - ReflectiveInjector и StaticInjector
 
-## Change Detection
-- Механизм Change Detection
+## Механизм синхронизации в деталях
+- Change Detection
   - ExpressionChangedAfterItHasBeenCheckedError
 - Понимание Zonejs
-    - runOutsideAngular
-    - выключаем ngZone
-- стратегия onPush
-- работа с Observable и markForCheck
+  - runOutsideAngular
+  - выключаем ngZone
+- Стратегия onPush
+- Работа с Observable и markForCheck
 - detach/reattach
 
 ## Реактивный подход
-- реактивный подход простыми словами
-- новое в RxJs6 и миграция
-- беглый обзор операторов
-- различные виды Subject
+- Понимание реактивного подхода
+- Новое в RxJs6 и миграция
+- Беглый обзор операторов
+- Различные виды Subject
 - unsubscribe и вопросы утечки памяти
-- работаем с Расписаниями(Schedulers)
-- юнит тесты для реактивных сущностей
+- Работаем с Расписаниями(Schedulers)
+- Юнит тесты для реактивных сущностей
 
-## Роутер
-- анимации при смене стейта
-- ленивая загрузка и стратегии предзагрузки модулей
-- динамическое изменения конфигурации стейтов
+## Продвинутый роутинг
+- Анимации при смене состояния
+- Ленивая загрузка и стратегии предзагрузки модулей
+- Динамическое изменения конфигурации состояний
 
 ## Schematics
-- принципы работы Angular Schematics
-- создаем Schematics для своей библиотеки
+- Принципы работы Angular Schematics
+- Создаем Schematics для своей библиотеки
 
 ## Service Workers
-- запуск сервис воркеров
-- настройка режима offline
-- проверка обновлений
+- Паттерны применения, достоинства
+- Запуск сервис воркеров
+- Настройка режима offline
+- Проверка обновлений
 - push-уведомления
 
 ## Renderer
-- Angular Ivy
-    - сравниваем Ivy и Angular Renderer2
+- Использование Ivy, нового рендерера Angular
+  - Сравнение Ivy и Angular Renderer2
 - SSR на основе angular-cli и express
-    - Кешируем http запросы с помощью TransferState
+  - Кешируем http запросы с помощью TransferState
 
 ## Сборка и оптимизация
 - Оптимизация размера бандлов
@@ -66,8 +65,8 @@
 - Модульная организация приложения
 - Больше одного приложения одновременно
 
-## Безопасность
+## Авторизация и безопасность
 - canActivate Guard
-- Интерсепторы авторизации
+- Интерсепторы авторизации 
 - Защита из коробки от XSS и XSRF
-- Настраиваем Auth0
+- Использование Auth0
