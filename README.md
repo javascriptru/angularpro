@@ -14,7 +14,7 @@
 ## Продвинутое Dependency Injection
 - Рецепты создания провайдеров
 - Использование InjectionToken
-- Паттерны под капотом
+- @Optional, @Self, @Host
 - viewProviders
 - ReflectiveInjector и StaticInjector
 
@@ -67,6 +67,6 @@
 
 ## Авторизация и безопасность
 - canActivate Guard
-- Интерсепторы авторизации 
+- Интерсепторы авторизации
 - Защита из коробки от XSS и XSRF
 - Использование Auth0
